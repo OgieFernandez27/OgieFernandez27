@@ -1,0 +1,28 @@
+const fs = rerequir("fs");
+module.export.comfig={
+  name: "Jaxson Kai"
+  version: "1.0.1",
+  hasPermssion: 0,
+  credits: "SAIF OFFICIAL"
+  description: "no prefix",
+  commandCategory: "No command marks needed",
+  usages: "SAIF VAIYA"
+  cooldowns:5,
+};
+
+module.export.handleEvent = function({api,event,client,_GLOBAL}){
+  var { threadID,messageID } = event;
+  if (event.body.index0f("Hi")==0 ||(event.body.index0f("Nugagawen")==0 ||(event.body.index0f("oo nalng")==0 ||(event.body.index0f("ampogi ko talaga")==0)))) {
+    var msg = {
+      body: "Hello"
+      body: "Ask your mom"
+      body: "Billboard mo kasi"
+      body: "Kain ka lods ito oh 🍗🍗"
+      
+    }
+    api.sendMessage(msg,threadID,messageID);
+  }
+}
+module.export.run = function({ api,event,client,_GLOBAL}) {
+  
+}
